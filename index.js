@@ -38,6 +38,16 @@ const questions = [{
     name:"license",
     message:"What license will your project use?",
     choices: ["MIT License", "GNU GPLv3", "No license"]
+},
+{
+    type:"input",
+    name:"github",
+    message:"What is your Github username?"
+},
+{
+    type:"input",
+    name:"email",
+    message:"What is your email address?"
 }
 ]
 

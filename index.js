@@ -33,7 +33,15 @@ const questions = [{
     name:"tests",
     message:"What tests can be run on this project? Please provide instructions for use."
 },
+{
+    type:"list",
+    name:"license",
+    message:"What license will your project use?",
+    choices: ["MIT License", "GNU GPLv3", "No license"]
+}
 ]
+
+inquirer.prompt(questions);
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}

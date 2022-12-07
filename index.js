@@ -13,7 +13,3 @@ const fs = require('fs');
 
 // Function call to initialize app
 // init();
-
-
-
-

@@ -19,7 +19,7 @@ function generateMarkdown(data) {
 
   ## Description
   
-
+  ${data.description}
   
   ## Table of Contents
   
@@ -32,11 +32,11 @@ function generateMarkdown(data) {
   
   ## Installation
   
-
+  ${data.installation}
   
   ## Usage
   
-
+  ${data.usage}
   
   ## License
   
@@ -44,11 +44,11 @@ function generateMarkdown(data) {
 
   ## Contributing
   
-  
+  ${data.contribution}
   
   ## Tests
   
-  
+  ${data.tests}
 
   ## Questions
 

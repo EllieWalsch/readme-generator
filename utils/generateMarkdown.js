@@ -4,7 +4,13 @@ function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(data) {
+  if (data.license == "No license") {
+    return ""
+  } else {
+    return `[${data.license}](https://choosealicense.com/licenses/${data.license.toLowerCase().split(' ').join('-')})`
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -40,7 +46,7 @@ function generateMarkdown(data) {
   
   ## License
   
-  
+  ${renderLicenseLink(data)}
 
   ## Contributing
   

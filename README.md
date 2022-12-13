@@ -10,7 +10,7 @@ Download the repo and copy the files into the directory of your choosing. Open t
 
 ## Usage
 
-In the terminal, type "node index.js" and answer the following prompts. After each prompt is complete, a generatedREADME file will appear in the root directory. You may now use the README file for your project! [Click here for a walkthrough video.](https://drive.google.com/file/d/1UEfcYHGRZf2_DnKUeL79DO5qy-asTZNC/view)
+In the terminal, type "node index.js" and answer the following prompts. After each prompt is complete, a generatedREADME file will appear in the root directory. You may now use the README file for your project! This readme will include clickable links to your Github account, email, and for more information about the license. It will also include a table of contents for easy access. [Click here for a walkthrough video.](https://drive.google.com/file/d/1UEfcYHGRZf2_DnKUeL79DO5qy-asTZNC/view)
 
 ![Readme Generator](./images/readme-generator-screenshot.png)
 
